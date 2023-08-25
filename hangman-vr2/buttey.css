@@ -1,0 +1,97 @@
+.ft {
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.ft:focus {
+    background-color: #fa0606;
+    color: rgb(250, 247, 247);
+}
+
+.firstbody{
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(mj.jpg);
+    background-size: cover;
+   
+
+}
+
+.divstyle{
+    width:50%;
+    height:100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading{
+    font-size: 50px;
+    font-family: Bahnschrift Light Condensed;
+    color: rgb(12, 12, 12);
+    
+}
+
+.gamestartbutton{
+    font-family: Engravers MT;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.secondbody{
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #5ed8f8;
+    /* background-image: url(mj.jpg); */
+    height: 85%;
+    width: 90%;
+}
+
+.secondheading{
+    font-size: 50px;
+    font-family: Bahnschrift Light Condensed;
+    color: rgb(12, 12, 12);
+}
+
+.seconddiv {
+    width: 70%;
+    height: 95%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.seconddivp {
+    width: 70%;
+    height: 50%;
+    /* background-color: #3bc22f; */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(hang.png);
+    background-repeat: no-repeat;
+}
+
+input, button {
+            font-size: 20px;
+            text-align: center;
+            
+        }
+        
+input{
+    border-radius: 25px;
+    background-color: aliceblue;
+}
+
+.newgame{
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+
+.newgame:focus {
+    background-color: #fa0606;
+    color: rgb(250, 247, 247);
+}

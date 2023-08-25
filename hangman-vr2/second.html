@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="buttey.css">
+    <title>HangMan</title>
+</head>
+
+<body onload="get()" class="secondbody">
+    <hl class="secondheading"><b>HangMan Game</b></hl>
+    <div class="seconddiv">
+        <div class="seconddivp">
+            <span id="demo2" style="font-size: 50px;"> </span>
+            <p style="font-size: 20px;" id="text2"></p>
+        </div><br /><br/><br>
+        <p style="font-size: 10px;" id="text"></p>
+        <input type="text" id="value" disabled><br /><br />
+        <input type="text" id="ans" onkeyup="search(event)"><br>
+        <span id="demo" style="font-size: 30px;"></span><br>
+        <a href="second.html"><button class="newgame">New Game</button></a>&nbsp
+        <a href="first.html"><button class="newgame">Back</button></a>
+
+    </div>
+    <script src="hangman.js"></script>
+    
+</body>
+
+</html>
